@@ -1,0 +1,34 @@
+name: dasar_flame
+description: "A new Flutter project."
+publish_to: 'none'
+version: 0.1.0
+
+environment:
+  sdk: '>=3.4.4 <4.0.0'
+
+dependencies:
+  flame: ^1.20.0
+  flutter:
+    sdk: flutter
+
+dev_dependencies:
+  flutter_lints: ^3.0.0
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  assets:
+    - assets/assets/images/ships/
+    - assets/assets/images/parallax/bkgd_0.png
+    - assets/assets/images/parallax/bkgd_1.png
+    - assets/assets/images/parallax/bkgd_2.png
+    - assets/assets/images/parallax/bkgd_3.png
+    - assets/assets/images/parallax/bkgd_4.png
+    - assets/assets/images/parallax/bkgd_5.png
+    - assets/assets/images/parallax/bkgd_6.png
+    - assets/assets/images/meteor/spaceMeteors_001.png
+    - assets/assets/images/meteor/spaceMeteors_002.png
+    - assets/assets/images/meteor/spaceMeteors_003.png
+    - assets/assets/images/meteor/spaceMeteors_004.png
+
+  uses-material-design: true
